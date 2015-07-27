@@ -19,9 +19,17 @@ vagrant plugin install sahara
 vagrant plugin install vagrant-proxyconf
 ~~~
 
++ このリポジトリをクローン(場所は任意)
+
+~~~
+cd ~/workspace/
+git clone git@github.com:aisaka/vagrant-centos.git
+~~~
+
 + vagrant upコマンドでマシンを起動(初回は10分くらいかかります
 
 ~~~
+cd ~/workspace/vagrant-centos
 vagrant up
 ~~~
 
